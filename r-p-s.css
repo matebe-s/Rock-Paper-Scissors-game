@@ -1,0 +1,75 @@
+
+      body{
+        background-color: rgb(25, 25, 25);
+        color: white;
+        font-family: Arial;
+        
+      }
+      .title{
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .move-icon{
+         height: 50px;
+      }
+      .move-btn{
+        background-color: transparent;
+        border: 2px solid white;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        margin: 10px;
+        cursor: pointer;
+      }
+      .result{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+      .score{
+        margin-top: 50px;
+      }
+      .reset-score-btn{
+        background-color: rgb(95, 191, 229);
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 8px 15px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 650px) {
+        .move-icon{
+          height: 40px;
+       }
+       .move-btn{
+         background-color: transparent;
+         border: 2px solid white;
+         width: 100px;
+         height: 100px;
+         border-radius: 50px;
+         margin: 10px;
+         cursor: pointer;
+      }
+      body {
+        margin-bottom: 40px;
+      }
+      }
+      @media (max-width: 450px) {
+        .move-icon{
+          height: 30px;
+       }
+       .move-btn{
+         background-color: transparent;
+         border: 2px solid white;
+         width: 80px;
+         height: 80px;
+         border-radius: 40px;
+         margin: 10px;
+         cursor: pointer;
+      }
+      body {
+        margin-bottom: 50px;
+      }
+    }
+    
